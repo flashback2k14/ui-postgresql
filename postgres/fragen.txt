@@ -1,0 +1,47 @@
+A)
+1. Welche Ziele verfolgt die Normalisierung?
+    Redundanzvermeidung
+2. Was versteht man unter einer Universalrelation?
+    Ausgangspunkt der algebr. Normalform
+3. Was versteht man unter einer transitiven Abhängigkeit?
+    Funktionaleabhängigkeit
+4. a) Welche Normalform ist die höchste mit der Normalformentheorie erreichbare?
+    5
+   b) Kann man jede Datenbank in diese Form überführen?
+    nein, hängt vom Datenmodell und den modellierten Daten ab
+
+B)
+1. Wozu dient Integritätskontrolle?
+    "unsinnige" Zustände vermeiden, Fremdschlüsselverbindungen
+2. Welche Arten von Integritätsbedingungen kennen Sie? Nennen Sie zu jeder Art ein Beispiel!
+    Fremdschlüsselbeziehung, Wertebereiche, not NULL
+3. Was versteht man unter einer funktionalen Abhängigkeit?
+    jede Ausprägung von x genau eine Ausprägung von y bestimmt und y nicht abhängig von  
+    Teilattributen von x ist (x -> y)
+4. Für die Darstellung welcher Beziehung eigenen sich Inklusionsabhängigkeiten?
+    IS-A Beziehungen
+5. Welche grundlgenden Möglichkeiten zur Integritätsüberwachung kennen Sie?
+    Trigger, Monitorprogramm, Anwendungsprogramm
+6. Was versteht man unter einer aktiven Datenbank?
+    Event, Condition, Action. DB reagiert auf Ereignisse, Regeln, Bedingungen
+
+C)
+1. In welche Gruppen werden objektbasierte Datenbankmodelle unterschieden?
+    reine Objektmodell, objekt-relationales Model (Mischmodell)
+2. Welche Anforderungen werden an ein objektbasiertes Datenmodell gestellt?
+    Darstellung abstrakter Objkekte, Daten gekapselt, Vererbung
+3. Erklären Sie den Begriff des abstrakten Datentypen!
+    Daten abstraktion, verbergen von Informationen
+4. Erläutern Sie die Grundzüge des objektrelationalen Datenmodells!
+    Gründe: alte Tools, oberstes Modell ist "Flach" bzw. eine Relation
+
+D)
+1. Nennen Sie die zentralen Sprachparadigmen des Relationenmodells!
+    ER-Modell, Relationales Modell (Tupel, Beziehungen), 
+    Datenbank (Tabellen, Beziehungen, Fremdsschlüssel)
+2. Kann man mit Hilfe der Relationenalgebra jede beliebige Hülle berechnen? 
+    Nein, da Relation in Algebra beschränkt
+3. Was versteht man unter einer Cood-vollständigen Sprache?
+    So mächtig wie die Relation in Algebra
+4. Wann sind zwei Sprachen gleich ausdrucksstark?
+    Equivalent
